@@ -47,9 +47,6 @@ Response :
 
 -----------Get Events End Point---------------
 
-Sample Request - 
-{
-}
 
 Headers:
 
