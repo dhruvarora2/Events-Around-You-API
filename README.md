@@ -14,6 +14,7 @@ Note For Every End Point - API Key is required.
 
 -----------Register End Point---------------
 Sample Request -
+```
 {
   "emailId": "dhruvarora@nyu.edu",
   "password":"dhruv1234",
@@ -22,19 +23,24 @@ Sample Request -
     "genre": "Comedy"
   }
 }
+```
 
 -----------Login End Point---------------
 Sample Request - 
+```
 {
   "emailId": "dhruvarora@nyu.edu",
   "password":"dhruv1234"
 }
+```
 Response : 
+```
 {
     "isAuthenticated": true,
     "idToken": "JWT Value",
     "accessToken": "Access Token Value"
 }
+```
 
 -----------Get Events End Point---------------
 Sample Request - 
@@ -46,12 +52,14 @@ Headers:
 
 -----------Set Preferences End Point---------------
 Sample Request - 
+```
 {
    "category": "Music",
    "genre": "Jazz"
 }
+```
 Headers:
 "Authorization" : idToken (From Login Request)
 "AccessToken" : Access Token (From Login Request)
 
-Note For Every End Point - API Key is required.
+*Note For Every End Point - API Key is required.*
