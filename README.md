@@ -13,6 +13,7 @@ Set Preferences End Point - https://7469ljob9e.execute-api.us-east-1.amazonaws.c
 Note For Every End Point - API Key is required.
 
 -----------Register End Point---------------
+
 Sample Request -
 ```
 {
@@ -26,6 +27,7 @@ Sample Request -
 ```
 
 -----------Login End Point---------------
+
 Sample Request - 
 ```
 {
@@ -33,6 +35,7 @@ Sample Request -
   "password":"dhruv1234"
 }
 ```
+
 Response : 
 ```
 {
@@ -43,14 +46,19 @@ Response :
 ```
 
 -----------Get Events End Point---------------
+
 Sample Request - 
 {
 }
+
 Headers:
+
 "Authorization" : idToken (From Login Request)
+
 "AccessToken" : Access Token (From Login Request)
 
 -----------Set Preferences End Point---------------
+
 Sample Request - 
 ```
 {
@@ -58,8 +66,11 @@ Sample Request -
    "genre": "Jazz"
 }
 ```
+
 Headers:
+
 "Authorization" : idToken (From Login Request)
+
 "AccessToken" : Access Token (From Login Request)
 
 *Note For Every End Point - API Key is required.*
